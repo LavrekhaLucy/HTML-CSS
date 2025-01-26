@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW 5.2.</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <style>
+        .yellow-box{
+            width: 400px;
+            height: 400px;
+            background-color: yellow;
+            margin: 400px auto 0 auto;
+            animation: YB 10s ease 5;
+
+        }
+        @keyframes YB{
+            from{
+                transform: scale(1) ;
+                background-color: yellow;
+        }
+            40%{
+                transform: scale(2) ;
+                background-color: lime;
+                border-radius: 30%;
+            }
+
+            70% {transform: scale(1.5) ;
+                background-color: greenyellow;
+                border-radius: 50%;
+                border: lime;
+            }
+            to {transform: scale(1) ;
+                background-color:yellow;
+                border-radius: 50%;
+                border:6px solid green;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="yellow-box"></div>
+</body>
+</html>

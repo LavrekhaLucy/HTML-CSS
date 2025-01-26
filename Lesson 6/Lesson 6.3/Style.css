@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    font-family: "Inter", sans-serif;
+}
+.Form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Login {
+    width: 400px;
+    height: 450px;
+    border: 2px solid rgba(186, 183, 183, 0.62);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+.Login div img{
+    width: 80%;
+    height: 70%;
+    padding-left: 35px;
+}
+.Login form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input[type="text"],input[type="password"] {
+    margin-top: 10px;
+    width: 300px;
+    height: 30px;
+    border: 2px solid rgba(186, 183, 183, 0.62);
+    border-radius: 3px;
+    font-weight: 500;
+}
+input[type="submit"]{
+    width: 300px;
+    height: 35px;
+    border:none;
+    border-radius: 7px;
+    background-color: rgba(30, 144, 255, 0.62);
+    color: white;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.Login form span{
+    margin-top: 20px;
+    color: gray;
+    font-weight: 500;
+}
+.logo p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: midnightblue;
+    font-weight: 500;
+    font-size: 17px;
+}
+.logo p img{
+    width: 30px;
+    height: 30px;
+}
+.Login  a{
+    color: midnightblue;
+   text-decoration: none;
+}
+
+.Registration{
+    width: 400px;
+    height: 80px;
+    border: 2px solid rgba(186, 183, 183, 0.62);
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    gap:5px;
+}
+.Registration a{
+    text-decoration: none;
+    color: dodgerblue;
+    font-weight: 600;
+}
