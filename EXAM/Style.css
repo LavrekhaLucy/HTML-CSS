@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-
+/*------------------------------------Header----------------------*/
 header{
     width: 1440px;
     height: 86px;
@@ -22,15 +22,12 @@ nav div.text{
     justify-content: center;
     align-items: center;
 }
-
 nav h4{
     width: 146px;
     height: 45px;
     color: #001858;
     font-size: 36px;
-    /*font-style: normal;*/
     font-weight: 600;
-    /*line-height: normal;*/
     text-align: right;
 }
 nav p{
@@ -38,9 +35,7 @@ nav p{
     height: 27px;
     color: #6246EA;
     font-size: 18px;
-    /*font-style: normal;*/
     font-weight: 700;
-    /*line-height: normal;*/
     margin: 0;
     text-align: left;
     padding-top: 10px;
@@ -53,7 +48,6 @@ ul{
     align-items: center;
     gap: 50px;
 }
-
 ul li{
     width: auto;
     height: 44px;
@@ -75,14 +69,33 @@ ul li img{
     padding-right: 10px;
 
 }
+/*-------------------------------section Dasteen-----------------*/
 section.Dasteen{
     width: 1440px;
     height: 814px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background: #EFF0F3;
     padding: 0 95px;
+}
+section.Dasteen_text{
+    width: 664px;
+    height: 345px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 185px 58px 284px 95px;
+
+}
+section.Dasteen_img{
+    width: 470px;
+    height: 387px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 250px 95px 263px 58px;
+
 }
 section.Dasteen h1{
     display: flex;
@@ -92,10 +105,7 @@ section.Dasteen h1{
     width: 617px;
     height: 162px;
     font-size: 64px;
-    /*font-style: normal;*/
     font-weight: 700;
-    /*line-height: normal;*/
-    /*text-transform: capitalize;*/
 }
 section.Dasteen p{
     display: flex;
@@ -103,4 +113,45 @@ section.Dasteen p{
     align-items: center;
     width: 652px;
     height: 50px;
+    color:  #9A9494;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 12px;
+    border-left: 3px solid  #2B2C34 ;
 }
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type="email"]{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 444px;
+    height: 67px;
+    border-radius: 8px;
+    background: #FFFFFE;
+    color:  #C0C0C0;
+    font-size: 20px;
+    border: none;
+    font-weight: 400;
+    padding: 21px 200px 21px 25px;
+    margin-right: 20px;
+}
+button.Dst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 145px;
+    height: 67px;
+    color: #FFFFFE;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #6246EA;
+    margin-right: 50px;
+}
+/*-----------------------------------------------------------------*/

@@ -35,11 +35,11 @@ img {
     height: auto;
 }
 
-button {
-    border: none;
-    background: none;
-    cursor: pointer;
-}
+/*button {*/
+/*    border: none;*/
+/*    background: none;*/
+/*    cursor: pointer;*/
+/*}*/
 
 img {
     max-width: 100%;
