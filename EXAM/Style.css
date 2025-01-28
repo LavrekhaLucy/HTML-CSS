@@ -1,13 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
 header{
     width: 1440px;
     height: 86px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EFF0F3;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.1);
 }
 nav{
     width: 1250px;
     height: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
+}
+nav div.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav h4{
+    width: 146px;
+    height: 45px;
+    color: #001858;
+    font-size: 36px;
+    /*font-style: normal;*/
+    font-weight: 600;
+    /*line-height: normal;*/
+    text-align: right;
+}
+nav p{
+    width: 48px;
+    height: 27px;
+    color: #6246EA;
+    font-size: 18px;
+    /*font-style: normal;*/
+    font-weight: 700;
+    /*line-height: normal;*/
+    margin: 0;
+    text-align: left;
+    padding-top: 10px;
+}
+ul{
+    width: 756px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+ul li{
+    width: auto;
+    height: 44px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    padding: 0 10px;
+
+}
+ul li:hover{
+    border-radius: 4px;
+    background: #6246EA;
+    color: #FFFFFE;
+
+}
+ul li img{
+    padding-right: 10px;
+
+}
+section.Dasteen{
+    width: 1440px;
+    height: 814px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EFF0F3;
+    padding: 0 95px;
+}
+section.Dasteen h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2B2C34;
+    width: 617px;
+    height: 162px;
+    font-size: 64px;
+    /*font-style: normal;*/
+    font-weight: 700;
+    /*line-height: normal;*/
+    /*text-transform: capitalize;*/
+}
+section.Dasteen p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 652px;
+    height: 50px;
 }
