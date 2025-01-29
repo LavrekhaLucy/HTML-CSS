@@ -69,7 +69,7 @@ ul li img{
     padding-right: 10px;
 
 }
-/*-------------------------------section Dasteen-----------------*/
+/*----------------------------------section Dasteen-----------------*/
 section.Dasteen{
     width: 1440px;
     height: 814px;
@@ -154,4 +154,74 @@ button.Dst{
     background: #6246EA;
     margin-right: 50px;
 }
-/*-----------------------------------------------------------------*/
+/*-----------------------------------Main section Cards---------------------*/
+section.Cards{
+    width: 1440px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #EFF0F3;
+    gap: 37px;
+    padding: 67px 96px 68px 94px;
+}
+div.Category{
+    width: 1252px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 810px;
+}
+div.Category p:nth-child(1){
+    width: 251px;
+    height: 30px;
+    color:  #2B2C34;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+div.Category p:nth-child(2){
+    width: 180px;
+    height: 25px;
+    color: #2B2C34;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+div.Category img{
+    width: 6px;
+    height: 14px;
+    margin-left: 6px;
+    padding-top: 4px;
+
+}
+div.Card{
+    width: 220px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    text-align: center;
+    border-radius: 8px;
+    background:  #FFFFFE;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    padding: 65px 80px 93px 25px;
+    color:  #2B2C34;
+    font-size: 24px;
+    font-weight: 700;
+}
+div.Card:hover{
+    background: #6246EA;
+    color: #FFFFFE;
+}
+div.Card img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+/*------------------------------------Main section Grid------------------------*/
