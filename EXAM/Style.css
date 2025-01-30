@@ -232,83 +232,72 @@ section.Grid{
     padding: 80px 94px;
     background: #FFFFFE;
     grid-template-columns: repeat(4,313px);
-    grid-template-rows: 30px 405px 30px 405px 30px 405px 30px 405px ;
-    grid-template-areas:
-    "top-a top-a top-a top-a"
-    "item-1 item-2 item-3 item-4"
-    "top-b top-b top-b top-b"
-    "item-5 item-6 item-7 item-8"
-    "top top top top"
-    "item item item item"
-    "top top top top"
-    "item item item item";
+    grid-template-rows: 30px 425px 30px 425px 30px 425px 30px 425px;
     justify-content: center;
     align-content: center;
-    /*margin: 0;*/
-
+    grid-row-gap:70px;
     }
-section.Grid{
-    grid-area: top-a;
-    grid-column: 1/5;
-    grid-row: 1/-1;
+.top-a{
+    grid-area:1/1/2/5;
+}
+.item-1{
+    grid-area:2/1/3/2;
+}
+.item-2{
+    grid-area:2/2/3/3;
+}
+.item-3{
+    grid-area:2/3/3/4;
+}
+.item-4{
+    grid-area:2/4/3/5;
+}
+.top-b{
+    grid-area:3/1/4/5;
+}
+.item-5{
+    grid-area:4/1/5/2;
+}
+.item-6{
+    grid-area:4/2/5/3;
+}
+.item-7{
+    grid-area:4/3/5/4;
+}
+.item-8{
+    grid-area:4/4/5/5;
+}
+.top-c{
+    grid-area:5/1/6/5;
+}
+.item-9{
+    grid-area:6/1/7/2;
+}
+.item-10{
+    grid-area:6/2/7/3;
+}
+.item-11{
+    grid-area:6/3/7/4;
+}
+.item-12{
+    grid-area:6/4/7/5;
+}
+.top-d{
+    grid-area:7/1/8/5;
+}
+.item-13{
+    grid-area:8/1/9/2;
+}
+.item-14{
+    grid-area:8/2/9/3;
+}
+.item-15{
+    grid-area:8/3/9/4;
+}
+.item-16{
+    grid-area:8/4/9/5;
+}
 
-}
-section.Grid{
-    grid-area: item-1;
-    grid-column: 1/2;
-    grid-row:2;
-}
-section.Grid{
-    grid-area: item-2;
-    grid-column: 2/3;
-    grid-row:2;
-}
-section.Grid{
-    grid-area: item-3;
-    grid-column: 3/4;
-    grid-row:2;
-}
-section.Grid{
-    grid-area: item-4;
-    grid-column: 4/5;
-    grid-row:2;
-}
-section.Grid{
-    grid-area: top-b;
-    grid-column: 1/5;
-    grid-row: 3;
-
-}
-section.Grid{
-    grid-area: item-5;
-    grid-column: 1/2;
-    grid-row:4;
-}
-section.Grid{
-    grid-area: item-6;
-    grid-column: 2/3;
-    grid-row:4;
-}
-section.Grid{
-    grid-area: item-7;
-    grid-column: 3/4;
-    grid-row:4;
-}
-section.Grid{
-    grid-area: item-8;
-    grid-column: 4/5;
-    grid-row:4;
-}
-
-
-
-
-/*div.Featured Article{*/
-/*    display: flex;*/
-/*    width:1252px;*/
-/*    height: 490px;*/
-
-/*}*/
 div.top-a{
     width: 1252px;
     height: 30px;
@@ -326,13 +315,29 @@ div.top-b{
     justify-content: center;
     align-items: center;
 }
+div.top-c{
+    width: 1252px;
+    height: 30px;
+    gap: 890px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.top-d{
+    width: 1252px;
+    height: 30px;
+    gap: 890px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 p.left_p{
     width: 189px;
     height: 30px;
     color: #2B2C34;
     font-size: 24px;
     font-weight: 700;
-    /*margin: 0;*/
+
 
 }
 p.right_p{
@@ -350,22 +355,22 @@ p.right_p img{
     margin-left: 10px;
 }
 
-
 div.item {
     display: flex;
     width: 300px;
     height: 425px;
     padding: 20px;
     flex-direction: column;
-    justify-content: end;
+    justify-content: start;
     align-items: center;
-    /*margin-bottom: 80px;*/
-}
 
+
+
+}
 div.item img{
     width: 260px;
     height: 198px;
-    margin-bottom: 25px;
+
 }
 div.item p{
     width: 260px;
@@ -373,21 +378,16 @@ div.item p{
     color: #2B2C34;
     font-size: 20px;
     font-weight: 700;
-    padding-bottom: 80px;
+    padding-top: 25px ;
 }
-
-
-
-
-
-
 div.Dasteen_ellipse{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 260px;
-    height: 57px;
+    height: 67px;
     gap: 15px;
+    margin-top: 50px;
 
 }
 div.Dasteen_ellipse img{
@@ -397,15 +397,17 @@ div.Dasteen_ellipse img{
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+
 }
 div.text_part_1{
     width: 184px;
     height: 46px;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 25px;
+    padding: 0;
 
 }
 div.text_part_1 h4{
@@ -414,6 +416,7 @@ div.text_part_1 h4{
     color: #2B2C34;
     font-size: 16px;
     font-weight: 600;
+
 }
 div.text_part_1 p{
     width: 184px;
@@ -422,4 +425,21 @@ div.text_part_1 p{
     font-size: 14px;
     font-weight: 400;
 }
-/*---------------------------------------------------------------------------*/
+/*---------------------------Button------------------------------------------*/
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 250px;
+}
+button{
+    width: 165px;
+    height: 64px;
+    border-radius: 8px;
+    background:#6246EA;
+    color: #FFFFFE;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+/*--------------------------Subscribe----------------------------------*/
