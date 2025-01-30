@@ -235,19 +235,72 @@ section.Grid{
     grid-template-rows: 30px 405px 30px 405px 30px 405px 30px 405px ;
     grid-template-areas:
     "top-a top-a top-a top-a"
-    "one two three four"
-    "title-b title-b title-b title-b"
-    "five six seven eight"
+    "item-1 item-2 item-3 item-4"
+    "top-b top-b top-b top-b"
+    "item-5 item-6 item-7 item-8"
     "top top top top"
     "item item item item"
     "top top top top"
     "item item item item";
     justify-content: center;
     align-content: center;
-    margin: 0;
-
+    /*margin: 0;*/
 
     }
+section.Grid{
+    grid-area: top-a;
+    grid-column: 1/5;
+    grid-row: 1/-1;
+
+}
+section.Grid{
+    grid-area: item-1;
+    grid-column: 1;
+    grid-row:2;
+}
+section.Grid{
+    grid-area: item-2;
+    grid-column: 2;
+    grid-row:2;
+}
+section.Grid{
+    grid-area: item-3;
+    grid-column: 3;
+    grid-row:2;
+}
+section.Grid{
+    grid-area: item-4;
+    grid-column: 4;
+    grid-row:2;
+}
+section.Grid{
+    grid-area: top-b;
+    grid-column: 1/5;
+    grid-row: 3;
+
+}
+section.Grid{
+    grid-area: item-5;
+    grid-column: 1;
+    grid-row:4;
+}
+section.Grid{
+    grid-area: item-6;
+    grid-column: 2;
+    grid-row:4;
+}
+section.Grid{
+    grid-area: item-7;
+    grid-column: 3;
+    grid-row:4;
+}
+section.Grid{
+    grid-area: item-8;
+    grid-column: 4;
+    grid-row:4;
+}
+
+
 
 
 /*div.Featured Article{*/
@@ -265,7 +318,7 @@ div.top-a{
     align-items: center;
     margin-bottom: 30px;
 }
-div.title-b{
+div.top-b{
     width: 1252px;
     height: 30px;
     gap: 890px;
@@ -296,29 +349,8 @@ p.right_p img{
     height: 14px;
     margin-left: 10px;
 }
-/*p.left_p_css{*/
-/*    width: 189px;*/
-/*    height: 30px;*/
-/*    color: #2B2C34;*/
-/*    font-size: 24px;*/
-/*    font-weight: 700;*/
-/*    !*margin: 0;*!*/
 
-/*}*/
-/*p.right_p_css{*/
-/*    width: 154px;*/
-/*    height: 25px;*/
-/*    color:  #2B2C34;*/
-/*    text-align: center;*/
-/*    font-size: 20px;*/
-/*    font-weight: 700;*/
 
-/*}*/
-/*p.right_p_css img{*/
-/*    width: 6px;*/
-/*    height: 14px;*/
-/*    margin-left: 10px;*/
-/*}*/
 div.item {
     display: flex;
     width: 300px;
@@ -329,16 +361,7 @@ div.item {
     align-items: center;
     /*margin-bottom: 80px;*/
 }
-div.picture {
-    display: flex;
-    width: 300px;
-    height: 425px;
-    padding: 20px;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    /*margin-bottom: 80px;*/
-}
+
 div.item img{
     width: 260px;
     height: 198px;
@@ -351,9 +374,6 @@ div.item p{
     font-size: 20px;
     font-weight: 700;
     padding-bottom: 80px;
-}
-div.item-1, div.item-2, div.item-3{
-    margin-top: 30px;
 }
 
 
