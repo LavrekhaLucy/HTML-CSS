@@ -228,21 +228,35 @@ div.Card img{
 section.Grid{
     width: 1440px;
     height: 2504px;
-    display: flex;
+    display: grid;
     padding: 80px 94px;
     background: #FFFFFE;
-}
-div.Featured Article{
-    display: grid;
-    width:1252px;
-    height: 490px;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 20% 80%;
+    grid-template-columns: repeat(4,313px);
+    grid-template-rows: 30px 405px 30px 405px 30px 405px 30px 405px ;
     grid-template-areas:
-    'left_p left_p right_p right_p'
-    'item item item item';
-}
-div.top{
+    "top-a top-a top-a top-a"
+    "one two three four"
+    "title-b title-b title-b title-b"
+    "five six seven eight"
+    "top top top top"
+    "item item item item"
+    "top top top top"
+    "item item item item";
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+
+
+    }
+
+
+/*div.Featured Article{*/
+/*    display: flex;*/
+/*    width:1252px;*/
+/*    height: 490px;*/
+
+/*}*/
+div.top-a{
     width: 1252px;
     height: 30px;
     gap: 890px;
@@ -251,13 +265,21 @@ div.top{
     align-items: center;
     margin-bottom: 30px;
 }
+div.title-b{
+    width: 1252px;
+    height: 30px;
+    gap: 890px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 p.left_p{
     width: 189px;
     height: 30px;
     color: #2B2C34;
     font-size: 24px;
     font-weight: 700;
-    margin: 0;
+    /*margin: 0;*/
 
 }
 p.right_p{
@@ -274,15 +296,48 @@ p.right_p img{
     height: 14px;
     margin-left: 10px;
 }
-div.item{
+/*p.left_p_css{*/
+/*    width: 189px;*/
+/*    height: 30px;*/
+/*    color: #2B2C34;*/
+/*    font-size: 24px;*/
+/*    font-weight: 700;*/
+/*    !*margin: 0;*!*/
+
+/*}*/
+/*p.right_p_css{*/
+/*    width: 154px;*/
+/*    height: 25px;*/
+/*    color:  #2B2C34;*/
+/*    text-align: center;*/
+/*    font-size: 20px;*/
+/*    font-weight: 700;*/
+
+/*}*/
+/*p.right_p_css img{*/
+/*    width: 6px;*/
+/*    height: 14px;*/
+/*    margin-left: 10px;*/
+/*}*/
+div.item {
     display: flex;
     width: 300px;
     height: 425px;
     padding: 20px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
-
+    /*margin-bottom: 80px;*/
+}
+div.picture {
+    display: flex;
+    width: 300px;
+    height: 425px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    /*margin-bottom: 80px;*/
 }
 div.item img{
     width: 260px;
@@ -297,6 +352,15 @@ div.item p{
     font-weight: 700;
     padding-bottom: 80px;
 }
+div.item-1, div.item-2, div.item-3{
+    margin-top: 30px;
+}
+
+
+
+
+
+
 div.Dasteen_ellipse{
     display: flex;
     justify-content: center;
