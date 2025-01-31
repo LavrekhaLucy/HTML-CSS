@@ -511,3 +511,135 @@ button.Sbc{
     margin: 30px 0 0 20px;
 }
 /*----------------------------Footer-------------------------------------------*/
+footer{
+    width: 1440px;
+    height: 435px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background:  #E4E5E9;
+}
+div.INFO{
+    width: 1249px;
+    height: 245px;
+    background: #E4E5E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:160px;
+}
+div.social-info{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 284px;
+    height: 245px;
+    gap: 20px;
+}
+div.text-footer{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 193px;
+    height: 45px;
+
+}
+div.text-footer h5{
+    color: #001858;
+    font-size: 36px;
+    font-weight: 600;
+}
+div.text-footer p{
+    color: #6246EA;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 18px;
+}
+div.icons{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    gap: 30px;
+}
+div.another-info{
+    width: 805px;
+    height: 245px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 95px;
+}
+card.CATEGORY{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 129px;
+    height: 245px;
+    gap: 20px;
+}
+card.ABOUT_ME{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 113px;
+    height: 245px;
+    gap: 20px;
+}
+card.GET_IN_TOUCH{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 159px;
+    height: 245px;
+    gap: 20px;
+}
+card.FOLLOW_US{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 119px;
+    height: 245px;
+    gap: 20px;
+}
+card.CATEGORY h6, card.ABOUT_ME h6, card.GET_IN_TOUCH h6, card.FOLLOW_US h6{
+    color: #2B2C34;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+
+}
+card.CATEGORY p, card.ABOUT_ME p, card.GET_IN_TOUCH p, card.FOLLOW_US p {
+    color:  #2B2C34;
+    font-size: 18px;
+    font-weight: 400;
+}
+div.down{
+    width:1249px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 26px;
+}
+div.down p{
+    width: 137px;
+    height: 18px;
+    color:  #2B2C34;
+    font-size: 14px;
+    font-weight: 400;
+}
+ hr{
+    width: 1249px;
+    height:2px;
+     /*background: #C0C0C0;*/
+     color: #C0C0C0;
+}
