@@ -48,26 +48,65 @@ ul{
     align-items: center;
     gap: 50px;
 }
-ul li{
-    width: auto;
+ul li.HOME{
+    width: 59px;
     height: 44px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #2B2C34;
+    font-size: 20px;
     font-weight: 700;
-    padding: 0 10px;
-
+}
+ul li.Category{
+    width: 93px;
+    height: 44px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2B2C34;
+    font-size: 20px;
+    font-weight: 700;
+}
+ul li.About{
+    width: 95px;
+    height: 44px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2B2C34;
+    font-size: 20px;
+    font-weight: 700;
+}
+ul li.Search{
+    width: 96px;
+    height: 44px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2B2C34;
+    font-size: 20px;
+    font-weight: 700;
+}
+ul li.Coffee{
+    width: 213px;
+    height: 44px;
+    text-align: end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2B2C34;
+    font-size: 20px;
+    font-weight: 700;
 }
 ul li:hover{
     border-radius: 4px;
     background: #6246EA;
     color: #FFFFFE;
-
-}
-ul li img{
-    padding-right: 10px;
-
 }
 /*----------------------------------section Dasteen-----------------*/
 section.Dasteen{
@@ -95,7 +134,6 @@ section.Dasteen_img{
     justify-content: center;
     align-items: center;
     padding: 250px 95px 263px 58px;
-
 }
 section.Dasteen h1{
     display: flex;
@@ -362,7 +400,6 @@ div.item {
     justify-content: start;
     align-items: center;
 }
-
 div.Dasteen_ellipse{
     display: flex;
     justify-content: center;
@@ -421,7 +458,6 @@ div.Btn{
     align-items: center;
     width: 1440px;
 }
-
 button.More{
     width: 165px;
     height: 64px;
@@ -430,7 +466,6 @@ button.More{
     color: #FFFFFE;
     font-size: 20px;
     font-weight: 700;}
-
 /*--------------------------Main section Subscribe-----------------------------*/
 section.Subscribe{
     width:1440px;
@@ -441,7 +476,7 @@ section.Subscribe{
     background:  #EFF0F3;
     padding: 58px 372px;
 }
-div.Subcribe-part{
+div.Subscribe-part{
     width: 696px;
     height: 337px;
     display: flex;
@@ -450,13 +485,13 @@ div.Subcribe-part{
     flex-direction: column;
     background: #EFF0F3;
 }
-div.Subcribe-part img{
+div.Subscribe-part img{
     width: 130px;
     height: 130px;
     border-radius: 50%;
     margin-bottom: 30px;
 }
-div.Subcribe-part h3{
+div.Subscribe-part h3{
     width: 604px;
     height: 45px;
     color: #2B2C34;
@@ -464,7 +499,7 @@ div.Subcribe-part h3{
     font-weight: 700;
 
 }
-div.Subcribe-part p{
+div.Subscribe-part p{
     width: 696px;
     height: 25px;
     color: #C0C0C0;
@@ -473,7 +508,7 @@ div.Subcribe-part p{
     font-weight: 400;
     margin-top: 10px;
 }
-input[type="email_s"]{
+input[type="text"]{
     width: 444px;
     height: 67px;
     color:#C0C0C0;
@@ -484,7 +519,6 @@ input[type="email_s"]{
     border: none;
     margin-top: 30px;
     padding-left: 25px;
-
 }
 button.Sbc{
     width: 145px;
@@ -626,7 +660,6 @@ div.down p{
  hr{
     width: 1249px;
     height:2px;
-     /*background: #C0C0C0;*/
-     color: #C0C0C0;
+    color: #C0C0C0;
 }
  /*-----------------------------------------------------------------------------*/
