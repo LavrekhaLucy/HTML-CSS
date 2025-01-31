@@ -361,23 +361,8 @@ div.item {
     flex-direction: column;
     justify-content: start;
     align-items: center;
-
-
-
 }
-div.item img{
-    width: 260px;
-    height: 198px;
 
-}
-div.item p{
-    width: 260px;
-    height: 25px;
-    color: #2B2C34;
-    font-size: 20px;
-    font-weight: 700;
-    padding-top: 25px ;
-}
 div.Dasteen_ellipse{
     display: flex;
     justify-content: center;
@@ -429,22 +414,23 @@ div.text_part_1 p{
     align-items: center;
 }
 /*---------------------------Button------------------------------------------*/
-.button{
+div.Btn{
+    margin-bottom: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 250px;
+    width: 1440px;
 }
-button{
+
+button.More{
     width: 165px;
     height: 64px;
     border-radius: 8px;
     background:#6246EA;
     color: #FFFFFE;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 700;}
 
-}
 /*--------------------------Main section Subscribe-----------------------------*/
 section.Subscribe{
     width:1440px;
@@ -643,3 +629,4 @@ div.down p{
      /*background: #C0C0C0;*/
      color: #C0C0C0;
 }
+ /*-----------------------------------------------------------------------------*/
