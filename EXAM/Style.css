@@ -87,23 +87,46 @@ ul li.Search{
     width: 96px;
     height: 44px;
     text-align: center;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     color: #2B2C34;
     font-size: 20px;
     font-weight: 700;
 }
+
 ul li.Coffee{
     width: 213px;
     height: 44px;
-    text-align: end;
-    display: flex;
+    text-align:center;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     color: #2B2C34;
     font-size: 18px;
     font-weight: 700;
+
+}
+ul li.Coffee span{
+    width: 145px;
+    height: 23px;
+    position: relative;
+    bottom: 3px;
+    margin-left: 10px;
+}
+ul li.Coffee svg path{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 20px;
+}
+ul li.Search span{
+    width: 69px;
+    height: 25px;
+    margin-left: 5px;
+}
+ul li.Search:hover svg path{
+    fill: white;
 }
 ul li:hover{
     border-radius: 4px;
